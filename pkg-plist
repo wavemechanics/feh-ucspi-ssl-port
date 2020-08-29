@@ -1,0 +1,25 @@
+bin/https@
+bin/sslcat
+bin/sslclient
+bin/sslconnect
+bin/sslhandle
+bin/sslprint
+bin/sslserver
+include/ucspissl.h
+lib/ucspissl.a
+lib/conf-ssl
+lib/ssl.lib
+@sample %%ETCDIR%%/127.0.0.1.key.sample
+@sample %%ETCDIR%%/127.0.0.1.pem.sample
+@sample %%ETCDIR%%/127.0.0.1.pw.sample
+@sample %%ETCDIR%%/::1.key.sample
+@sample %%ETCDIR%%/::1.pem.sample
+@sample %%ETCDIR%%/::1.pw.sample
+@sample %%ETCDIR%%/chain4.pem.sample
+@sample %%ETCDIR%%/chain6.pem.sample
+@sample %%ETCDIR%%/dh1024.pem.sample
+@sample %%ETCDIR%%/localhost.key.sample
+@sample %%ETCDIR%%/localhost.pem.sample
+@sample %%ETCDIR%%/localhost.pw.sample
+@sample %%ETCDIR%%/openssl.cnf.sample
+@sample %%ETCDIR%%/rootCA.pem.sample
